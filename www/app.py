@@ -1,8 +1,7 @@
 import logging; logging.basicConfig(level=logging.INFO)
 
 import asyncio, os, json, time
-from datetime import datetime
-
+from datetime import date
 from aiohttp import web
 
 def index(request):
